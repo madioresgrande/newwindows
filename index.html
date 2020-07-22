@@ -72,7 +72,34 @@ and (max-width : 320px) {
   header {
     background-image: none !important;
   }
-}</style>
+}
+	    <!--     START  POP-UP STYLE -->
+       <style>
+        .popup{
+            position: fixed;
+            width:100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            top:0;
+            left:0;
+          }
+        .popup_body{
+            min-height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 10px;
+        }
+        .popup_content{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+        }
+    </style>
+<!--    END   POP-UP STYLE -->
+	</style>
         <script type="text/javascript" id="sns_global_scripts_in_head" src="null">values=["278264701069323834","217117946463837126","217270855414021201","217270855414021201","300878414509350327"];
 
 function qp(e){e=e.split("+").join(" ");for(var t,n={},o=/[?&]?([^=]+)=([^&]*)/g;t=o.exec(e);)
@@ -165,5 +192,18 @@ document.write('<script src="' + (campaign) + (campaign.indexOf('?') == -1 ? '?'
         
     </footer>
     </div>
+	    <!--       POP-UP-->
+    </div>
+     <div id="popup" class="popup">
+       <div class="popup_body">
+           <div class="popup_content">
+               <div class="popup_title">CLICK HERE TO SEE IF YOU QUALIFY OT THIS PROGRAMM</div>
+               <div class="popup_text">
+                  <img src="window.png" height="200px" width="200px" alt="">
+               </div>
+           </div>
+       </div>
+   </div>
+   <!--       POP-UP-->
 </body>
 </html>
